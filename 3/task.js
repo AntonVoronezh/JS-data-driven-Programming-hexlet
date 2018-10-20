@@ -47,4 +47,3 @@ const run = (player1, player2, cards, customRandom) => {
 
 export default (cards, customRandom =
 random) => (name1, name2) => run(name1, name2, cards, customRandom);
-
